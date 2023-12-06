@@ -81,14 +81,25 @@ WSGI_APPLICATION = 'SS11_API.wsgi.application'
 #         'NAME': BASE_DIR / 'db.sqlite3',
 #     }
 # }
+# DATABASES = {
+#     'default': {
+#         'ENGINE': 'django.db.backends.postgresql_psycopg2',
+#         'NAME': 'SS11_API_DB',
+#         'USER': 'postgres',
+#         'PASSWORD': '123',
+#         'HOST': 'localhost',
+#         'PORT': '5433',
+#     }
+# }
+#---------------Production------------
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': 'SS11_API_DB',
+        'NAME': 'railway',
         'USER': 'postgres',
-        'PASSWORD': '123',
-        'HOST': 'localhost',
-        'PORT': '5433',
+        'PASSWORD': 'F-e14FgBADgF4BEbffaCG5c-CCEA13bF',
+        'HOST': 'monorail.proxy.rlwy.net',
+        'PORT': '20204',
     }
 }
 
